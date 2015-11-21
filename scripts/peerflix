@@ -1,0 +1,12 @@
+#! /bin/bash
+
+link="$1"
+options="$2"
+pout=/tmp/pout.fifo
+rm $pout
+mkfifo $pout
+
+command=( "/usr/local/bin/peerflix" "'$link'" "$options" -q )
+"${command[@]}" > myfifo &
+echo "Peerflix started."
+rm myfifo

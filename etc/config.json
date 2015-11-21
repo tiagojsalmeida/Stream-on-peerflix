@@ -1,0 +1,54 @@
+{
+  "actions": [
+    {
+      "name": "vlc",
+      "title": "in VLC",
+      "options": "vlc"
+    },
+    {
+      "name": "AirPlay",
+      "title": "via AirPlay",
+      "options": "airplay"
+    },
+    {
+      "name": "mplayer",
+      "title": "in mplayer",
+      "options": "mplayer"
+    },
+    {
+      "name": "smplayer",
+      "title": "in smplayer",
+      "options": "smplayer"
+    },
+    {
+      "name": "mpchc",
+      "title": "in MPC-HC player",
+      "options": "mpchc"
+    },
+    {
+      "name": "potplayer",
+      "title": "in Potplayer",
+      "options": "potplayer"
+    },
+    {
+      "name": "mpv",
+      "title": "in mpv",
+      "options": "mpv"
+    },
+    {
+      "name": "omx",
+      "title": "in omx",
+      "options": "omx"
+    },
+    {
+      "name": "webplay",
+      "title": "in webplay",
+      "options": "webplay"
+    },
+    {
+      "name": "omx_jack",
+      "title": "in omx using audio jack",
+      "options": "jack"
+    }
+  ]
+}

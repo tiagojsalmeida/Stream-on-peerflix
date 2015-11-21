@@ -1,0 +1,21 @@
+{
+  "name": "Stream on peerflix",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Stream any torrent with peerflix",
+  "background" : {
+    "page" : "background.html",
+    "persistent" : true
+  },
+  "permissions": [
+    "contextMenus",
+    "http://127.0.0.1/*"
+  ],
+  "icons": {
+    "16": "icon-16x16.png",
+    "32": "icon-32x32.png",
+    "48": "icon-48x48.png",
+    "64": "icon-64x64.png",
+    "128": "icon-128x128.png"
+  }
+}
