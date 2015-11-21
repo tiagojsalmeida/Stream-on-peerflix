@@ -32,3 +32,7 @@ To install the Chrome extension:
 If you right click on a torrent or magnet link you will see the context menu.
 Then just select one of the options from the contect menu (VLC, AirPlay, etc).
 
+## TODO ##
+
+* Create node-webkit app and run webserver in background
+* Show only installed media players
